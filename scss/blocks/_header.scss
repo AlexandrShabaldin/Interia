@@ -1,0 +1,27 @@
+.header{
+    background-image: url(../images/header/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 69vh;
+    &__top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 32px;
+    }
+    &__desc{
+        display: grid;
+        justify-content: end;
+        padding-top: 200px;
+    }
+    &__title{
+        font-size: 40px;
+        font-family: $font-bold;
+    }
+    &__text{
+        padding: 10px 0 40px;
+    }
+    &__play-btn{
+        padding-left: 51px;
+    }
+}

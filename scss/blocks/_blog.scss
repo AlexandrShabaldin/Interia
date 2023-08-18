@@ -1,0 +1,52 @@
+.blog{
+    background-color: $background-grey;
+    &__inner{
+        padding-top: 100px;
+    }
+    &__subtitle{
+        font-family: $font-bold;
+        color: $light-green;
+        letter-spacing: 6.88px;
+        text-align: center;
+    }
+    &__title{
+        font-size: 40px;
+        font-family: $font-bold;
+        text-align: center;
+    }
+    &__box{
+        display: flex;
+        justify-content: space-between;
+        padding: 35px 0 100px;
+        border-bottom: 1px solid $border;
+    }
+    &__desc{
+        padding: 0 18px;
+    }
+    &__text{
+        color: $light-green;
+        padding: 35px 0;
+    }
+    &__news{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 75px 0;
+    }
+    &__input{
+        border-bottom: 1px solid $light-green;
+        padding: 8px 0 8px 25px;
+        width: 45%;
+        &::placeholder{
+            color: $white;
+        }
+    }
+    &__btn{
+        display: inline-block;
+        font-family: $font-bold;
+        padding: 8px 46px;
+        letter-spacing: 6.88px;
+        border-radius: 100px;
+        border: 1px solid $light-green;
+    }
+}

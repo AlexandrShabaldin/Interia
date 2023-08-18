@@ -1,0 +1,17 @@
+.nav{
+    &__list{
+        display: flex;
+        align-items: center;
+        gap: 55px;
+    }
+    &__link-btn{
+        display: inline-block;
+        letter-spacing: 6.88px;
+        padding: 8px 31px;
+        border-radius: 100px;
+        border: 1px solid $light-green;
+    }
+    &__item-footer{
+        display: none;
+    }
+}

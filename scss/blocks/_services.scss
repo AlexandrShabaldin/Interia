@@ -1,0 +1,30 @@
+.services{
+    background-color: $background-grey;
+    &__inner{
+        display: grid;
+        row-gap: 47px;
+        padding: 100px 0;
+    }
+    &__block{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid $border;
+        padding-bottom: 47px;
+        &:last-child{
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+    }
+    &__title{
+        font-size: 40px;
+        font-family: $font-bold;
+    }
+    &__desc{
+        max-width: 412px;
+    }
+    &__text{
+        color: $light-green;
+        padding-bottom: 22px;
+    }
+}

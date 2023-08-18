@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Nunito&display=swap');
+
+body{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: $font-regular;
+    color: $white;
+}
+
+a{
+    color: $white;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.max-container{
+    max-width: 1950px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.learn__btn{
+    font-family: $font-bold;
+    letter-spacing: 6.88px;
+    position: relative;
+    &::after{
+        content: '';
+        display: block;
+        position: absolute;
+        background-image: url(../images/services/angle.svg);
+        width: 14px;
+        height: 14px;
+        top: 50%;
+        transform: translate(0, -50%);
+        right: -25px;
+    }
+}
